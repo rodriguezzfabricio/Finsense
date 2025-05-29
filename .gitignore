@@ -1,0 +1,75 @@
+# Java / Maven
+backend/target/
+backend/*.jar
+backend/*.war
+backend/*.ear
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+
+# Spring Boot
+backend/application-*.properties
+backend/application-*.yml
+
+# Python
+ai-service/__pycache__/
+ai-service/*.py[cod]
+ai-service/*$py.class
+ai-service/*.so
+ai-service/.Python
+ai-service/env/
+ai-service/venv/
+ai-service/ENV/
+ai-service/env.bak/
+ai-service/venv.bak/
+ai-service/.venv/
+ai-service/pip-log.txt
+ai-service/pip-delete-this-directory.txt
+ai-service/.cache/
+ai-service/models/downloaded/
+
+# Node.js / React
+frontend/node_modules/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/build/
+frontend/dist/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Docker
+docker-compose.override.yml
+
+# Logs
+logs/
+*.log
+
+# AI/ML Models (large files)
+*.bin
+*.h5
+*.pkl
+*.joblib 
