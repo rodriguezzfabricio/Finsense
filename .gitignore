@@ -1,3 +1,6 @@
+# Frontend (excluding from version control per user request)
+frontend/
+
 # Java / Maven
 backend/target/
 backend/*.jar
