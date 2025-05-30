@@ -2,7 +2,7 @@
 
 An intelligent financial coach that leverages advanced AI to help users manage their money more effectively through automated expense tracking, personalized budgeting insights, and financial goal planning.
 
-## 🏗️ Architecture
+## Architecture
 
 This project uses a microservices architecture:
 - **Backend**: Java Spring Boot (REST API)
@@ -11,7 +11,7 @@ This project uses a microservices architecture:
 - **Database**: Supabase (PostgreSQL with real-time features)
 - **AI Models**: Hugging Face Transformers
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 FinSense-AI/
@@ -32,7 +32,7 @@ FinSense-AI/
 └── README.md
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Java 17+
@@ -70,7 +70,7 @@ FinSense-AI/
    npm start
    ```
 
-## 🎯 Features (Planned)
+## Features (Planned)
 
 - [ ] Smart Receipt Scanner (OCR)
 - [ ] Automatic Expense Categorization
@@ -80,21 +80,21 @@ FinSense-AI/
 - [ ] Budget Management
 - [ ] Financial News Sentiment Analysis
 
-## 🔧 Environment Variables
+## Environment Variables
 
 Create `.env` files in each service directory with the required configuration.
 
-## 📝 Development Progress
+## Development Progress
 
 - [x] Week 1: Project setup and basic architecture
 - [ ] Week 2: Core expense tracking features
 - [ ] Week 3: AI integrations and smart insights
 - [ ] Week 4: Advanced features and deployment
 
-## 🤝 Contributing
+## Contributing
 
 This is a portfolio project. See development progress in daily commits.
 
-## 📄 License
+## License
 
-MIT License 
+MIT License
