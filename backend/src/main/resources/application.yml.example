@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: finsense-backend
+  
+  datasource:
+    url: jdbc:postgresql://${SUPABASE_URL}:5432/postgres
+    username: postgres
+    password: ${SUPABASE_DB_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+  
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+
+security:
+  jwt:
+    secret: ${JWT_SECRET}
+    expiration: 86400000  # 24 hours
+
+logging:
+  level:
+    com.finsense.backend: INFO
+    org.springframework.security: DEBUG
+
+server:
+  port: 8080
